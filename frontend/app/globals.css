@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* GuruGraph tokens: the Indian maths notebook (see design/tokens.css) */
+@theme {
+  --color-paper: #FBFCFE;
+  --color-grid: #E4EAF4;
+  --color-margin: #E8A3A0;
+  --color-ink: #1E2A5E;
+  --color-ink-soft: #3B4A8A;
+  --color-graphite: #5F6673;
+  --color-rule: #D5DCE8;
+  --color-redpen: #CC3A2F;
+  --color-mastered: #2E8B57;
+  --color-partial: #D99A1E;
+  --color-gap: #D4574B;
+  --color-highlighter: #F6E86B;
+
+  --font-ui: var(--font-hind), "Nirmala UI", system-ui, sans-serif;
+  --font-hand: var(--font-kalam), "Segoe Print", cursive;
+  --font-kn: var(--font-kannada), "Nirmala UI", sans-serif;
+
+  --radius-panel: 18px;
+  --radius-control: 10px;
+}
+
+@utility notebook {
+  background-color: var(--color-paper);
+  background-image:
+    linear-gradient(var(--color-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-grid) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+@utility highlight {
+  background: linear-gradient(transparent 40%, var(--color-highlighter) 40%, var(--color-highlighter) 90%, transparent 90%);
+  padding: 0 4px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-redpen);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

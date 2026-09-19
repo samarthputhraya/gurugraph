@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.egg-info/
+.venv/
+.ruff_cache/
+.pytest_cache/
+*.db
+backend/uploads/
+.env
+
+# Node
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+
+# Private data: never commit photos of handwriting or real pilot responses
+**/eval_photo/*.jpg
+**/eval_photo/*.jpeg
+**/eval_photo/*.png
+**/eval_photo/*.heic
+**/pilot_*.csv

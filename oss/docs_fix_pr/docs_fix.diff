@@ -1,0 +1,87 @@
+--- a/.github/README_TEMPLATE.md
++++ b/.github/README_TEMPLATE.md
+@@ -56,8 +56,8 @@
+ 1. **Clone the repository:**
+ 
+    ```bash
+-   git clone https://github.com/Arindam200/awesome-llm-apps.git
+-   cd awesome-llm-apps/[project_directory]
++   git clone https://github.com/Arindam200/awesome-ai-apps.git
++   cd awesome-ai-apps/[project_directory]
+    ```
+ 
+ 2. **Create and activate a virtual environment:**
+@@ -114,11 +114,11 @@
+ 
+ ## 🤝 Contributing
+ 
+-Contributions are welcome! Please feel free to submit a Pull Request. See the [CONTRIBUTING.md](https://github.com/Arindam200/awesome-llm-apps/blob/main/CONTRIBUTING.md) for more details.
++Contributions are welcome! Please feel free to submit a Pull Request. See the [CONTRIBUTING.md](https://github.com/Arindam200/awesome-ai-apps/blob/main/CONTRIBUTING.md) for more details.
+ 
+ ## 📄 License
+ 
+-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Arindam200/awesome-llm-apps/blob/main/LICENSE) file for details.
++This project is licensed under the MIT License - see the [LICENSE](https://github.com/Arindam200/awesome-ai-apps/blob/main/LICENSE) file for details.
+ 
+ ## 🙏 Acknowledgments
+ 
+--- a/.github/PULL_REQUEST_TEMPLATE.md
++++ b/.github/PULL_REQUEST_TEMPLATE.md
+@@ -39,7 +39,7 @@
+ Please confirm that you have followed these guidelines.
+ -->
+ 
+-- [ ] I have read the [**CONTRIBUTING.md**](https://github.com/Arindam200/awesome-llm-apps/blob/main/CONTRIBUTING.md) document.
++- [ ] I have read the [**CONTRIBUTING.md**](https://github.com/Arindam200/awesome-ai-apps/blob/main/CONTRIBUTING.md) document.
+ - [ ] My code follows the project's coding standards.
+ - [ ] I have placed my project in the correct directory (e.g., `advance_ai_agents`, `rag_apps`).
+ - [ ] I have included a `requirements.txt` or `pyproject.toml` for dependencies.
+--- a/CLAUDE.md
++++ b/CLAUDE.md
+@@ -4,7 +4,7 @@
+ 
+ ## Repository Overview
+ 
+-This is a comprehensive collection of practical LLM-powered application examples, tutorials, and recipes organized by complexity and use case. The repository contains 70+ example projects demonstrating various AI frameworks and patterns.
++This is a comprehensive collection of practical LLM-powered application examples, tutorials, and recipes organized by complexity and use case. The repository contains 130+ example projects demonstrating various AI frameworks and patterns.
+ 
+ ## Project Categories
+ 
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -4,7 +4,7 @@
+ 
+ ## Repository Overview
+ 
+-This is a comprehensive collection of practical LLM-powered application examples, tutorials, and recipes organized by complexity and use case. The repository contains 70+ example projects demonstrating various AI frameworks and patterns.
++This is a comprehensive collection of practical LLM-powered application examples, tutorials, and recipes organized by complexity and use case. The repository contains 130+ example projects demonstrating various AI frameworks and patterns.
+ 
+ ## Project Categories
+ 
+--- a/.github/ISSUE_TEMPLATE/feature_request.yml
++++ b/.github/ISSUE_TEMPLATE/feature_request.yml
+@@ -36,6 +36,10 @@
+         - rag_apps
+         - starter_ai_agents
+         - simple_ai_agents
++        - memory_agents
++        - voice_agents
++        - fine_tuning
++        - course
+     validations:
+       required: true
+ 
+--- a/.github/ISSUE_TEMPLATE/bug_report.yml
++++ b/.github/ISSUE_TEMPLATE/bug_report.yml
+@@ -37,6 +37,11 @@
+         - mcp_ai_agents
+         - rag_apps
+         - starter_ai_agents
++        - simple_ai_agents
++        - memory_agents
++        - voice_agents
++        - fine_tuning
++        - course
+     validations:
+       required: true
+ 
