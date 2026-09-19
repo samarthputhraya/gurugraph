@@ -36,7 +36,7 @@ gurugraph/
 cd oss/multi_agent_teaching_ecosystem
 pip install -r requirements.txt
 python main.py --offline          # watch the five agents work on a simulated class of 30
-pytest -q                         # 18 offline tests
+pytest -q                         # 22 offline tests
 
 cd ../../backend && pip install -r requirements.txt && uvicorn app.main:app --reload   # GET /health
 cd ../frontend && npm install && npm run dev                                            # shell only

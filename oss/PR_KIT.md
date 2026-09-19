@@ -141,7 +141,7 @@ git push origin feat/multi-agent-teaching-ecosystem
 > - [x] My pull request is focused on a single project.
 >
 > ## 💬 Additional Comments
-> 18 offline tests (`pytest`) cover the answer parser, mastery updates, each agent, LLM outages and the full graph. No API key is needed to review it.
+> 22 offline tests (`pytest`) cover the answer parser, mastery updates, each agent, LLM outages and the full graph. No API key is needed to review it.
 
 ---
 
